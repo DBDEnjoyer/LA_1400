@@ -8,7 +8,6 @@ public class schlecht extends JuniorRobot
 		int degrees = negativedistance / 399;
 		int recoilcontroll = negativedistance / 1000 ;
 		fire(2.95);
-		sleep(3);
 		if (shotcounter == 1)
 		{
 					turnGunLeft(degrees);
