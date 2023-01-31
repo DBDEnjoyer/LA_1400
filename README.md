@@ -1,5 +1,6 @@
 # LA_1400
-
+{
+{
 package Grigioni.Leonardo.fieseliese;
 import robocode.*;
 public class schlecht extends JuniorRobot
