@@ -10,23 +10,23 @@ public class schlecht extends JuniorRobot
 		fire(2.95);
 		if (shotcounter == 1)
 		{
-					turnGunLeft(degrees);
-					shotcounter++ ;		
+			turnGunLeft(degrees);
+			shotcounter++ ;		
 		}
 		if (shotcounter == 2)
 		{
-					turnGunLeft(degrees-recoilcontroll);
-					shotcounter++ ;		
+			turnGunLeft(degrees-recoilcontroll);
+			shotcounter++ ;		
 		}
 		if (shotcounter == 3)
 		{
-					turnGunLeft(degrees-recoilcontroll);
-					shotcounter = 1;		
+			turnGunLeft(degrees-recoilcontroll);
+			shotcounter = 1;		
 		}
 	}	
 	public void run() {	
-		setColors(black, black, red, red, black);
-		while(true) {
+	setColors(black, black, red, red, black);
+    	while(true) {
 			turnRight(3);
 			ahead(3);
 		}
